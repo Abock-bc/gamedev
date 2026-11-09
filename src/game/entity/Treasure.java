@@ -2,7 +2,6 @@ package game.entity;
 
 import game.visitor.GameVisitor;
 
-/** Concrete Element: a treasure. */
 public class Treasure implements GameEntity {
     private final String title;
     private final int x;

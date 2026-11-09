@@ -1,6 +1,5 @@
 package game.entity;
 
-/** The player. Not an element of the structure, just context for collision checks. */
 public class Player {
     private final String name;
     private final int x;

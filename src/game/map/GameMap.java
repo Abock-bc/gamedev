@@ -6,7 +6,6 @@ import game.visitor.GameVisitor;
 import java.util.ArrayList;
 import java.util.List;
 
-/** Object Structure: a collection of entities that the client traverses. */
 public class GameMap {
     private final List<GameEntity> entities = new ArrayList<>();
 

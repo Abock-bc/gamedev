@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/** Concrete Visitor: its single operation is detecting player collisions with map objects. */
 public class CollisionDetectionVisitor implements GameVisitor {
     private final Player player;
     private final List<String> collisions = new ArrayList<>();

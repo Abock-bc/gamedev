@@ -2,7 +2,6 @@ package game.entity;
 
 import game.visitor.GameVisitor;
 
-/** Concrete Element: a monster. */
 public class Monster implements GameEntity {
     private final String name;
     private final int x;

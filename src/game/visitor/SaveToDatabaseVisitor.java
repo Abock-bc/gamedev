@@ -7,10 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/**
- * Concrete Visitor: its single operation is preparing data to save the game state to a database.
- * There is no real database: SQL statements are collected instead (simulation).
- */
+
 public class SaveToDatabaseVisitor implements GameVisitor {
     private final List<String> sqlStatements = new ArrayList<>();
 
